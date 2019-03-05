@@ -4,7 +4,7 @@
 
 cmake_minimum_required(VERSION 3.1.3)
 
-# Check to make sure the user has specified the path to the GreatFET binaries.
+# Check to make sure the user has specified the path to the GreatFET build tree.
 if(NOT DEFINED ENV{GREATFET_PATH})
   message(FATAL_ERROR "GREATFET_PATH must be defined to point to your GreatFET tree.")
 endif()
